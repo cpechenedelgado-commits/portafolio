@@ -1,0 +1,21 @@
+:root {
+  /* Colors */
+  --color-bg: #0f172a;
+  --color-surface: #111827;
+  --color-primary: #38bdf8;
+  --color-text: #e5e7eb;
+  --color-muted: #9ca3af;
+
+  /* Typography */
+  --font-main: system-ui, -apple-system, BlinkMacSystemFont, sans-serif;
+
+  /* Spacing */
+  --space-xs: 0.5rem;
+  --space-sm: 1rem;
+  --space-md: 2rem;
+  --space-lg: 4rem;
+
+  /* Layout */
+  --max-width: 1100px;
+  --radius: 0.75rem;
+}

@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Tu Nombre | Frontend Developer</title>
+
+  <link rel="stylesheet" href="css/variables.css" />
+  <link rel="stylesheet" href="css/styles.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"/>
+
+</head>
+<body>
+
+  <!-- HEADER -->
+  <header class="header">
+    <nav class="nav container">
+      <h1 class="logo">Carlos Eduardo Pechene Delgado</h1>
+
+      <ul class="nav-links">
+        <li><a href="#projects">Proyectos</a></li>
+        <li><a href="#about">Sobre mí</a></li>
+        <li><a href="#contact">Contacto</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- HERO -->
+  <section class="hero container">
+    <div class="hero-inner">
+      <div class="hero-text">
+        <h2>Frontend Developer</h2>
+        <p>
+          Desarrollo interfaces web modernas con HTML, CSS y JavaScript.
+          Enfocado en crear aplicaciones funcionales y bien estructuradas.
+        </p>
+
+        <div class="hero-buttons">
+          <a href="#projects" class="btn primary">Ver proyectos</a>
+          <a href="https://github.com/cpechenedelgado-commits/carlos-pechene" class="btn secondary" target="_blank">
+            GitHub
+          </a>
+        </div>
+      </div>
+
+      <div class="hero-photo">
+        <img class="clip-img" src="assets/clip.png" alt="clip" />
+        <img class="profile-img" src="assets/mi_foto.png" alt="Carlos Eduardo" />
+      </div>
+    </div>
+  </section>
+
+
+
+  <!-- PROJECTS -->
+  <section id="projects" class="projects container">
+    <h3>Proyectos</h3>
+
+    <div class="projects-grid">
+        <!-- Proyecto 1: weater app -->
+        <article class="project-card">
+          <img src="./assets/weater.png.png" alt="weater_app" />
+          <h4>Weater App</h4>
+          <p>Consulta el clima de cualquier ciudad con datos en tiempo real y cambia entre Celsius y Fahrenheit.</p>
+          <div class="project-links">
+            <a href="https://cpechenedelgado-commits.github.io/weater/" target="_blank" >  Demo </a>
+            <a href="https://github.com/cpechenedelgado-commits/weater" target="_blank" > Código </a>
+          </div>
+        </article>
+
+        <!-- Proyecto 2: App de Películas -->
+        <article class="project-card">
+          <img src="./assets/movies.png" alt="App de Películas" />
+          <h4>App de Películas</h4>
+          <p>Explora películas, marca tus favoritas y filtra por título o año usando React y Bootstrap.</p>
+          <div class="project-links">
+            <a href="https://movies-coral-pi.vercel.app" target="_blank" >  Demo </a>
+            <a href="https://github.com/cpechenedelgado-commits/movies" target="_blank" > Código </a>
+          </div>
+
+        </article>
+
+        <!-- Proyecto 3: Blog Personal -->
+        <article class="project-card">
+          <img src="assets/blog.png" alt="Blog Personal" />
+          <h4>Blog Personal</h4>
+          <p>Blog dinámico y visual donde comparto mis proyectos, aprendizajes y reflexiones.</p>
+          <div class="project-links">
+            <a href="https://cpechenedelgado-commits.github.io/blog/" target="_blank">Demo</a>
+            <a href="https://github.com/cpechenedelgado-commits/blog" target="_blank">Código</a>
+          </div>
+        </article>
+
+        <!-- Proyecto 4: task_manager -->
+        <article class="project-card">
+          <img src="assets/task.png" alt="Task Manager" />
+          <h4>Task Manager</h4>
+          <p>Organiza tus tareas de forma rápida con opciones de agregar, editar y eliminar.</p>
+          <div class="project-links">
+            <a href="https://cpechenedelgado-commits.github.io/carlos-pechene/" target="_blank">Demo</a>
+            <a href="https://github.com/cpechenedelgado-commits/task-manager" target="_blank">Código</a>
+          </div>
+        </article>
+
+        <!-- Proyecto 5: presupuestos -->
+        <article class="project-card">
+          <img src="./assets/presupuestos.png" alt="Presupuesto" />
+          <h4>Tú Presupuesto</h4>
+          <p>Controla tus ingresos y gastos y lleva un registro de tu presupuesto personal.</p>
+          <div class="project-links">
+            <a href="https://cpechenedelgado-commits.github.io/presupuesto/" target="_blank">Demo</a>
+            <a href="https://github.com/cpechenedelgado-commits/presupuesto" target="_blank">Código</a>
+          </div>
+        </article>
+    </div>
+  </section>
+
+  <!-- ABOUT -->
+  <section id="about" class="about container">
+    <h3>Sobre mí</h3>
+    <p>
+      Desarrollador frontend autodidacta con sólidos conocimientos en
+      HTML, CSS y JavaScript. Me enfoco en escribir código limpio,
+      reutilizable y fácil de mantener para construir aplicaciones
+      que resuelvan problemas reales. busco mi primera oportunidad profecional
+      para seguir creciendo dentro de un equipo de Desarrollo.
+    </p>
+
+    <ul class="tech-list">
+      <li class="html"><i class="fab fa-html5"></i> HTML5</li>
+      <li class="css"><i class="fab fa-css3-alt"></i> CSS3</li>
+      <li class="js"><i class="fab fa-js-square"></i> JavaScript</li>
+      <li class="api"><i class="fas fa-server"></i> APIs REST</li>
+      <li class="storage"><i class="fas fa-database"></i> LocalStorage</li>
+      <li class="react"><i class="fab fa-react"></i> React</li>
+      <li class="bootstrap"><i class="fab fa-bootstrap"></i> Bootstrap</li>
+    </ul>
+  </section>
+
+  <section id="about" class="about container">
+    <h3>En aprendizaje</h3>
+    <p>
+      Actualmente me encuentro ampliando mis conocimientos en tecnologías orientadas al desarrollo backend y aplicaciones completas.
+      Estoy aprendiendo Python y Django para la creación de aplicaciones web robustas, MySQL para la gestión de bases de datos, PHP como lenguaje backend y Angular para el desarrollo de interfaces modernas y escalables.
+      Mi objetivo es fortalecer mi perfil como desarrollador full stack, integrando frontend y backend en proyectos reales.
+    </p>
+
+    <ul class="tech-list">
+      <li class="python"><i class="fab fa-python"></i> Python </li>
+      <li class="django"><i class="fas fa-leaf"></i> Django</li>
+      <li class="mysql"><i class="fas fa-database"></i> MySQL </li>
+      <li class="php"><i class="fab fa-php"></i> PHP </li>
+      <li class="angular"><i class="fab fa-angular"></i> Angular</li>
+    </ul>
+
+  </section>
+
+  <!-- CONTACT -->
+  <section id="contact" class="contact container">
+    <h3>Contacto</h3>
+    <p>¿Hablamos? Estoy abierto a oportunidades.</p>
+
+    <a href="mailto:cpechenedelgado@gmail.com" class="btn primary">
+      Envíame un email
+    </a>
+
+    <a href="https://wa.me/573247669644" target="_blank" class="contact-btn whatsapp"><i class="fab fa-whatsapp"></i> 
+      WhatsApp
+    </a>
+
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    <p>© 2025 Carlos Pechené</p>
+  </footer>
+
+  <script src="js/main.js"></script>
+</body>
+</html>
